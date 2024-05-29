@@ -1,0 +1,260 @@
+
+header {
+    text-align: center;
+    /* Centra el contenido horizontalmente */
+    
+}
+
+h1 {
+    color:#DB9623;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 50px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    /* Muestra los elementos en línea uno al lado del otro */
+    margin-right: 15px;
+    /* Agrega espacio entre los elementos de navegación */
+
+    font-family: Arial, sans-serif;
+    /* Cambia la fuente de texto */
+    color: rgb(10, 7, 7) ;
+}
+
+nav a {
+    color: inherit;
+    /* quita el color azul predeterminado */
+
+}
+
+.contacto-h2{
+    font-size: 35px;
+    padding-top: 5%;
+}
+.contacto-p{
+    padding: 2% 20% 5% 20%;
+    font-size: 22px;
+}
+.contacto-h3{
+    font-size: 25px;
+}
+
+.form-contacto{
+    border: 2px solid #040101; /* Establece un borde de 2px de ancho y color gris */
+    padding: 20px; /* Agrega un espacio de 20px alrededor del contenido del formulario */
+}
+.quienes-somos{
+    font-size: 35px;
+    padding-top: 5%;
+}
+.parrafo-h2 {
+    padding: 2% 20% 5% 20%;
+    font-size: 22px;
+}
+
+.contenido{
+    font-size: 35px;
+
+}
+.parrafo-contenido {
+    font-size: 22px;
+}
+
+footer {
+    color: inherit;
+    /* quita el color azul predeterminado */
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+.container {
+    padding: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+body {
+    background-color:  #c89c7d;
+}
+
+
+/*.container-indexx {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+}
+
+.contenido-text {
+    grid-area: content-text;
+}
+
+.contenido-images {
+    grid-area: content-images;
+}
+
+.content-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "content-images-1 content-images-2"
+        "content-images-3 content-images-4";
+}
+
+.content-images-1 {
+    grid-area: img-1;
+}
+
+.content-images-2 {
+    grid-area: img-2;
+}
+
+.content-images-3 {
+    grid-area: img-3;
+}
+
+.content-images-4 {
+    grid-area: img-4;
+}
+
+.container-indexx img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.nosotros-h2{
+    font-size: 35px;
+    padding-top: 5%;
+}
+.nosotros-p2{
+    padding: 2% 20% 5% 20%;
+    font-size: 22px;
+}
+
+/*
+.content-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "content-img1 content-img2"
+        "content-img3 content-img4"
+        "content-img5 content-img6";
+}
+
+.content-img1 {
+    grid-area: img1;
+}
+
+.content-img2 {
+    grid-area: img2;
+}
+
+.content-img3 {
+    grid-area: img3;
+}
+
+.content-img4 {
+    grid-area: img4;
+}
+.content-img5 {
+    grid-area: img5;
+}
+
+.content-img6 {
+    grid-area: img6;
+}
+.content-img img{
+    width: 80%;
+    height: auto;
+    display: block;
+    
+}
+*/
+
+.main-productos {
+    text-align: center;
+}
+
+/*@media screen and (max-width: 600px) {
+    .parrafo-h2 {
+        padding: 2%;
+    }
+    .container-indexx {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+    }
+    .content-images {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 10px 10px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            "content-images-1" 
+            "content-images-2"
+            "content-images-3" 
+            "content-images-4";
+    }
+    
+    .content-images-1 {
+        grid-area: img-1;
+    }
+    
+    .content-images-2 {
+        grid-area: img-2;
+    }
+    
+    .content-images-3 {
+        grid-area: img-3;
+    }
+    
+    .content-images-4 {
+        grid-area: img-4;
+    }
+    
+    .container-indexx img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    .nosotros-h2{
+        font-size: 35px;
+        padding-top: 5%;
+    }
+    .nosotros-p2{
+        padding: 2% 20% 5% 20%;
+        font-size: 22px;
+    }
+    .content-text {
+        grid-area: auto;
+    }
+}*/
+header{
+    background-image: url(../Imagenes/fondo\ madera.jpg)
+}
+
