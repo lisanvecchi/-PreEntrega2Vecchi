@@ -1,0 +1,21 @@
+main {
+
+
+    .contacto-h2 {
+        font-size: 35px;
+        padding-top: 5%;
+
+        .contacto-p {
+            padding: $pad;
+            font-size: $tama;
+            font-family: $tipografia-p;
+        }
+    }
+
+    section {
+
+        .contacto-h3 {
+            font-size: 25px;
+        }
+    }
+}

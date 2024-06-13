@@ -1,0 +1,74 @@
+body {
+  background-color: #c89c7d;
+}
+body header {
+  background-image: url(../Imagenes/fondo\ madera.jpg);
+  text-align: center;
+}
+body header h1 {
+  color: #DB9623;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+}
+body h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+body h2 .quienes-somos {
+  font-size: 22px;
+  padding: 2% 20% 5% 20%;
+  font-family: "Arial, sans-serif";
+}
+body .contenido {
+  font-size: 35px;
+}
+body .contenido .parrafo-contenido {
+  font-size: 22px;
+  font-family: "Arial, sans-serif";
+}
+
+.nav-item :hover {
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  transform: scale(1.1);
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-on-load {
+  animation: slideDown 1s ease-out;
+}
+
+main .contacto-h2 {
+  font-size: 35px;
+  padding-top: 5%;
+}
+main .contacto-h2 .contacto-p {
+  padding: 2% 20% 5% 20%;
+  font-size: 22px;
+  font-family: "Arial, sans-serif";
+}
+main section .contacto-h3 {
+  font-size: 25px;
+}
+
+main {
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  padding: 2% 20% 5% 20%;
+  font-family: "Arial, sans-serif";
+}
+
+/*# sourceMappingURL=style.css.map */
